@@ -3,7 +3,6 @@ A relational database project based on sales data including customers, products,
 This project covers complete Exploratory Data Analysis (EDA) using SQL with real-world business scenarios.
 
 This project demonstrates practical SQL skills including data exploration, aggregation, joins, window functions, segmentation, and performance analysis.
-https://github.com/debabrata099/Sales-Data-Analysis-EDA-Project-SQL/edit/main/README.md
 ## 📁 Project Structure
 
 SQL-Sales-Analysis
