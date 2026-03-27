@@ -63,7 +63,8 @@ All SQL analysis is included in: EDA_Project.sql
 - Performance analysis (Year-over-Year comparison)
 ## 🏆 Sample Query Snippets
 
-- Total Sales
+- Total Sales:
+
 select sum(sales_amount) as total_sales from sales;
 
 - Top 5 products by revenue:
