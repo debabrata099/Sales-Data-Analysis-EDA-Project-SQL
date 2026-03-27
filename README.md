@@ -63,10 +63,10 @@ All SQL analysis is included in: EDA_Project.sql
 - Performance analysis (Year-over-Year comparison)
 ## 🏆 Sample Query Snippets
 
-- -- Total Sales
+- Total Sales
 select sum(sales_amount) as total_sales from sales;
 
-- -- Top 5 products by revenue:
+- Top 5 products by revenue:
 
 select p.product_name, sum(s.sales_amount) as total_revenue
 
@@ -80,7 +80,7 @@ order by total_revenue desc
 
 limit 5;
 
-- -- Monthly sales trend:
+- Monthly sales trend:
 
 select date_format(order_date, '%Y-%m') as month,
 
@@ -92,9 +92,10 @@ group by month
 
 order by month;
 
-- -- Customer Segmentation:
+- Customer Segmentation:
 
 case
+
 when total_spending > 5000 then 'VIP'
 
 when total_spending <= 5000 then 'Regular'
