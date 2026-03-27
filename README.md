@@ -69,25 +69,36 @@ select sum(sales_amount) as total_sales from sales;
 -- Top 5 products by revenue:
 
 select p.product_name, sum(s.sales_amount) as total_revenue
+
 from products p
+
 join sales s on p.product_key = s.product_key
+
 group by p.product_name
+
 order by total_revenue desc
+
 limit 5;
 
 -- Monthly sales trend:
 
 select date_format(order_date, '%Y-%m') as month,
+
 sum(sales_amount) as total_sales
+
 from sales
+
 group by month
+
 order by month;
 
 -- Customer Segmentation:
 
 case
 when total_spending > 5000 then 'VIP'
+
 when total_spending <= 5000 then 'Regular'
+
 else 'New'
 end
 
