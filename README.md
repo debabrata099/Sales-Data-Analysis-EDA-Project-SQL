@@ -118,7 +118,6 @@ end
 
 ## 🔮 Future Enhancements
 - Create dashboard using Power BI / Tableau
-- Automate reports using Python
 - Add stored procedures and triggers
 - Perform predictive analysis
 ## 👨‍💻 Author
